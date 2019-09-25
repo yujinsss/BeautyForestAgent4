@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormBeauty.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormBeauty.Designer.cs">
+      <DependentUpon>FormBeauty.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAdd.cs">
       <SubType>Form</SubType>
@@ -62,16 +62,16 @@
     <Compile Include="FormModify.Designer.cs">
       <DependentUpon>FormModify.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormOpinion.cs">
+    <Compile Include="FormMemo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormOpinion.Designer.cs">
-      <DependentUpon>FormOpinion.cs</DependentUpon>
+    <Compile Include="FormMemo.Designer.cs">
+      <DependentUpon>FormMemo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormBeauty.resx">
+      <DependentUpon>FormBeauty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdd.resx">
       <DependentUpon>FormAdd.cs</DependentUpon>
@@ -79,8 +79,8 @@
     <EmbeddedResource Include="FormModify.resx">
       <DependentUpon>FormModify.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormOpinion.resx">
-      <DependentUpon>FormOpinion.cs</DependentUpon>
+    <EmbeddedResource Include="FormMemo.resx">
+      <DependentUpon>FormMemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

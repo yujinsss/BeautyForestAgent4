@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace BeautyForestAgent
 {
-    public partial class Form1 : Form
+    public partial class FormBeauty : Form
     {
-        public Form1()
+        public FormBeauty()
         {
             InitializeComponent();
         }
@@ -54,10 +54,10 @@ namespace BeautyForestAgent
             Application.ExitThread();
         }
 
-        private void 건의사항ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 메모장ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.statusMessage.Text = "무료로 건의사항을 보낼 수 있습니다!";
-            FormOpinion m = new FormOpinion();
+            this.statusMessage.Text = "잊지 말고 자주 메모를 남기세요!";
+            FormMemo m = new FormMemo();
             m.ShowDialog();
         }
     }
